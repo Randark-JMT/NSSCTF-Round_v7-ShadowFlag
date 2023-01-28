@@ -20,4 +20,4 @@
 
 ## 环境部署
 项目已给出`Dockerfile`，直接执行`docker build`即可构建镜像
-本项目支持动态flag($FLAG传入)，部署容器可使用CTFd，或参考`./docker/docker-compose.yml`
+本项目支持动态flag(`$FLAG`传入)，部署容器可使用CTFd，或参考`./docker/docker-compose.yml`
