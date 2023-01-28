@@ -20,9 +20,10 @@
 
 ## 参考资料
 - [2020 年 V&N 内部考核赛 WriteUp - Glzjin](https://www.zhaoj.in/read-6407.html)
-- [ swisskyrepo / PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md#awk)
+- [ swisskyrepo / PayloadsAllTheThings 反弹shell的payload合集](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md#awk)
+- [flask的pin码攻击——新版本下pin码的生成方式](https://blog.csdn.net/qq_42303523/article/details/124232532)
 
 ## 环境部署
 项目已给出`Dockerfile`，直接执行`docker build`即可构建镜像。
 
-本项目支持动态flag(`$FLAG`传入)，部署容器可使用CTFd，或参考`./docker/docker-compose.yml`
+本项目支持动态flag(`$FLAG`传入)，部署容器可使用`CTFd`，或参考`./docker/docker-compose.yml`
