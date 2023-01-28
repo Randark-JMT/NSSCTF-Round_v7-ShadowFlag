@@ -1,4 +1,4 @@
-# NSSCTF Round$7 ShadowFlag
+# NSSCTF Round#7 ShadowFlag
 
 都rm -f执行过了，flag还能找到吗
 
