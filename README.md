@@ -18,6 +18,10 @@
 6. 利用上文计算得到的Debug PIN，进入Debug控制台，执行`flag2`或者`dump()`，即可读取到变量数据，进而得到flag2
 7. 两段flag拼接，即可解出
 
+## 参考资料
+- [2020 年 V&N 内部考核赛 WriteUp - Glzjin](https://www.zhaoj.in/read-6407.html)
+- [ swisskyrepo / PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md#awk)
+
 ## 环境部署
 项目已给出`Dockerfile`，直接执行`docker build`即可构建镜像。
 
