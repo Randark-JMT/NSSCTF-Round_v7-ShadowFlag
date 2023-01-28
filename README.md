@@ -8,8 +8,8 @@
 - Flask Debug界面调取变量数据
   
 ## 解题流程
-请参阅项目目录:`./document/poc.py`
-在脚本中，备注部分给出了一份无空格Python反弹shell的指令(注意修改为自己的监听地址)，并且此脚本为高版本Flask计算Debug PIN的脚本。步骤如下:
+请参阅项目目录：`./document/poc.py`。
+在脚本中，备注部分给出了一份无空格Python反弹shell的指令(注意修改为自己的监听地址)，并且此脚本为高版本Flask计算Debug PIN的脚本。步骤如下：
 1. 访问靶机，可以看到`app.py`源码，其中可以看到整体的路由和逻辑
 2. 访问`ip:port/shell`，用过`POST`方法发送上文的无空格反弹shell，即可得到shell
 3. 参考赵总的这篇文章[2020 年 V&N 内部考核赛 WriteUp - Glzjin](https://www.zhaoj.in/read-6407.html)，访问到前半部分flag
