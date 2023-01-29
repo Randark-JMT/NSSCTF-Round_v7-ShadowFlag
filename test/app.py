@@ -13,6 +13,7 @@ def index():
 @app.route("/shell", methods=['POST'])
 def shell():
     action = request.form["act"]
+    app.logger.info('action is :%s', action)
     if action.find(" ") != -1:
         return "Nonono"
     else:
