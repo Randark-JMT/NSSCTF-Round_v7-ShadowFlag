@@ -3,10 +3,9 @@ FROM python:3.10-slim-bullseye
 LABEL auther="Randark_JMT"
 EXPOSE 8080
 
-# RUN sed -i "s@http://deb.debian.org@https://mirrors.tuna.tsinghua.edu.cn@g" /etc/apt/sources.list
+RUN sed -i "s@http://deb.debian.org@https://mirrors.tuna.tsinghua.edu.cn@g" /etc/apt/sources.list
 
-# RUN pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple flask 
-RUN pip3 install flask 
+RUN pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple flask 
 
 RUN useradd -m ctf -s /bin/rbash
 
